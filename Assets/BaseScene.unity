@@ -1,0 +1,5280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: .25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
+  m_Fog: 0
+  m_FogColor: {r: .5, g: .5, b: .5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: .00999999978
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: .211999997, g: .226999998, b: .259000003, a: 1}
+  m_AmbientEquatorColor: {r: .114, g: .125, b: .133000001, a: 1}
+  m_AmbientGroundColor: {r: .0469999984, g: .0430000015, b: .0350000001, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: .5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+--- !u!127 &3
+LevelGameManager:
+  m_ObjectHideFlags: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 5
+  m_GIWorkflowMode: 0
+  m_LightmapsMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 3
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: .5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: .400000006
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: .166666672
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &6874806
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1200392082}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &13061697
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1317844022}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &17659192
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 993309861}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &17669156
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 784159767}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &31391986 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1981482433}
+--- !u!1001 &57658529
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1862821323}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &58112780
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 364281486}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &59911624 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1934984682}
+--- !u!21 &68627601
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &75269242
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1060016103}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &87084017 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 537207566}
+--- !u!21 &93739959
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &95483974
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1424225185}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &115869113 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 450050094}
+--- !u!4 &129203298 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1850378929}
+--- !u!4 &131721800 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1995582004}
+--- !u!21 &140052892
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &148909504
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1821929641}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &155258773
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 964542428}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &188839462 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1053756698}
+--- !u!4 &197207123 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1019539519}
+--- !u!21 &224678296
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &257391082
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &262590050
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 943547f8ff090d144b126094b1e3586a, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .75, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f5b42126c7402a34b9256896685d8ad5, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .75, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &278207815
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1968841383}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &281352449 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1584538611}
+--- !u!1001 &309581007
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .913084388
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.231153801
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &320136618 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1499455251}
+--- !u!1001 &323964052
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1229213465}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &335894128 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 148909504}
+--- !u!4 &338879547 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1624764802}
+--- !u!4 &343338282 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 2132842545}
+--- !u!21 &364281486
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &368554757
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &377293716
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1296837553}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &378444212
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2098639570}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &379493994
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &379605380
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &381487813 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 445301592}
+--- !u!21 &381636785
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &387636082 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 58112780}
+--- !u!4 &422567161 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 740824418}
+--- !u!1001 &426261310
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 528246907}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &429623821
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1886396872}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &441457630
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 379493994}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &445301592
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1404355222}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &450050094
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1373134766}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &454706746
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 794657887}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &493653298
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 68627601}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &495417015
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1019662371}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &527945687
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2004048791}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &528246907
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &536137027 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 429623821}
+--- !u!1001 &537207566
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1236928888}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &542002017 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 95483974}
+--- !u!1 &571061947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 571061952}
+  - 20: {fileID: 571061951}
+  - 92: {fileID: 571061950}
+  - 124: {fileID: 571061949}
+  - 81: {fileID: 571061948}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &571061948
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571061947}
+  m_Enabled: 1
+--- !u!124 &571061949
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571061947}
+  m_Enabled: 1
+--- !u!92 &571061950
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571061947}
+  m_Enabled: 1
+--- !u!20 &571061951
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571061947}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+--- !u!4 &571061952
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 571061947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!21 &584474707
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &615047723
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1958067560}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &650742210 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 773111720}
+--- !u!4 &660305602 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1257691327}
+--- !u!4 &684847474 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1000903094}
+--- !u!1001 &713231015
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 943002071}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &724833997
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1232145421}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &735071269
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &735890404 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 493653298}
+--- !u!1 &736716987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: ad97302ec5305874caf9c440df88fc34, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 736716988}
+  - 114: {fileID: 736716989}
+  m_Layer: 0
+  m_Name: AutoTileSet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &736716988
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: ad97302ec5305874caf9c440df88fc34, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736716987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1226599203}
+  - {fileID: 1195845110}
+  - {fileID: 1162483268}
+  - {fileID: 31391986}
+  - {fileID: 1386712030}
+  - {fileID: 1846203534}
+  - {fileID: 684847474}
+  - {fileID: 1099425755}
+  - {fileID: 1192717858}
+  - {fileID: 2086236846}
+  - {fileID: 129203298}
+  - {fileID: 387636082}
+  - {fileID: 320136618}
+  - {fileID: 1583001171}
+  - {fileID: 910147464}
+  - {fileID: 847828160}
+  - {fileID: 281352449}
+  - {fileID: 1631978756}
+  - {fileID: 1650727297}
+  - {fileID: 87084017}
+  - {fileID: 1740447697}
+  - {fileID: 381487813}
+  - {fileID: 2135513641}
+  - {fileID: 536137027}
+  - {fileID: 338879547}
+  - {fileID: 59911624}
+  - {fileID: 422567161}
+  - {fileID: 2108436563}
+  - {fileID: 1429142772}
+  - {fileID: 115869113}
+  - {fileID: 1277048901}
+  - {fileID: 1594365759}
+  - {fileID: 1041514249}
+  - {fileID: 1150222760}
+  - {fileID: 131721800}
+  - {fileID: 2129158131}
+  - {fileID: 887750126}
+  - {fileID: 197207123}
+  - {fileID: 343338282}
+  - {fileID: 735890404}
+  - {fileID: 1160145660}
+  - {fileID: 1891412286}
+  - {fileID: 795580941}
+  - {fileID: 650742210}
+  - {fileID: 1947317556}
+  - {fileID: 542002017}
+  - {fileID: 747849439}
+  - {fileID: 794812483}
+  - {fileID: 2131720108}
+  - {fileID: 1751608345}
+  - {fileID: 335894128}
+  - {fileID: 188839462}
+  - {fileID: 1837180454}
+  - {fileID: 871963523}
+  - {fileID: 1350657632}
+  - {fileID: 660305602}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!114 &736716989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: ad97302ec5305874caf9c440df88fc34,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736716987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3ebc6010d9bb440ad2ec7ce0fe0070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 1, y: 1}
+  offset: {x: .5, y: .5, z: .100000001}
+  displayGrid: 1
+  gridColor: {r: 0, g: 0, b: 0, a: 0}
+  currentTile: {fileID: 100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+--- !u!1001 &740824418
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 93739959}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &747849439 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1726670602}
+--- !u!1001 &773111720
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1488202120}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &784159767
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &794657887
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &794812483 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1869437194}
+--- !u!4 &795580941 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 527945687}
+--- !u!21 &831500875
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &847828160 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1813437608}
+--- !u!4 &871963523 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 988988125}
+--- !u!4 &887750126 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 984526394}
+--- !u!4 &910147464 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1309960355}
+--- !u!1001 &932577025
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 140052892}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &943002071
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &964542428
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &984526394
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 735071269}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &988988125
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1582878119}
+    - target: {fileID: 11400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: autoTileMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: sx
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &993309861
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1000903094
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1264789786}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1019539519
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1670967974}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1019662371
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1037329378
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1456190104}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1041514249 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 2137418423}
+--- !u!21 &1042533857
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1053756698
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1433694651}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1060016103
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1099425755 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 17669156}
+--- !u!4 &1150222760 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 2020696601}
+--- !u!4 &1160145660 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 378444212}
+--- !u!4 &1162483268 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 155258773}
+--- !u!1001 &1181522320
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1789507530}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1192717858 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 932577025}
+--- !u!4 &1195845110 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1958133976}
+--- !u!21 &1200392082
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1226599203 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1037329378}
+--- !u!21 &1229213465
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1232145421
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .166666672}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .166666672}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1236928888
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1257691327
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 262590050}
+    - target: {fileID: 11400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: autoTileMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: sx
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800002, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1264789786
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1265378737
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1342419727}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1277048901 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 75269242}
+--- !u!21 &1296837553
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1309960355
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 831500875}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1317844022
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1342419727
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1350657632 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 323964052}
+--- !u!21 &1373134766
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1386712030 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 454706746}
+--- !u!21 &1404355222
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1418330774
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1423522522
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .625, y: .833333373}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .625, y: .833333373}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1424225185
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1429142772 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1265378737}
+--- !u!21 &1433694651
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1456190104
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1488202120
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1499455251
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2044761051}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1499958169
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1505434678
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1534460820
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1582878119
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 943547f8ff090d144b126094b1e3586a, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .625, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: f5b42126c7402a34b9256896685d8ad5, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .625, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1583001171 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 377293716}
+--- !u!1001 &1584538611
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 257391082}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1594365759 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 17659192}
+--- !u!1001 &1624764802
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1534460820}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1631978756 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 426261310}
+--- !u!4 &1650727297 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1181522320}
+--- !u!1001 &1657375865
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1423522522}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1670967974
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1726670602
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 224678296}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1740447697 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 713231015}
+--- !u!4 &1751608345 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 615047723}
+--- !u!21 &1767207015
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1789507530
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1803837519
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1813437608
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 381636785}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1821929641
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1837180454 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1949245658}
+--- !u!4 &1846203534 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 57658529}
+--- !u!1001 &1850378929
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1499958169}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1862821323
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .125, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1869437194
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 584474707}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1886396872
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!21 &1889785699
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b94e8e0c3d6108749aa2698a26ffaf85, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1891412286 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 495417015}
+--- !u!1001 &1934984682
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 379605380}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1947317556 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 724833997}
+--- !u!1001 &1949245658
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1042533857}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1958067560
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d4aa5e31202c8f44a4bf46da2b7c0de, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .5, y: .5}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .5, y: .5}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1958133976
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 368554757}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &1968841383
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .166666672}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .166666672}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1981482433
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1803837519}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1995582004
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1418330774}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &2004048791
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .166666672}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .875, y: .166666672}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &2020696601
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1889785699}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!21 &2044761051
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 26ce62f6e68eae04fa12347fd6a9e2fb, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: .25, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &2086236846 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 278207815}
+--- !u!21 &2098639570
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RockTileMaterial
+  m_Shader: {fileID: 52, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 8303388ffdd887a478a8190b45b624f6, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: b8a5a68702c386848a629899e81fe10e, type: 3}
+          m_Scale: {x: .125, y: .166666672}
+          m_Offset: {x: 0, y: .333333343}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &2108436563 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 13061697}
+--- !u!4 &2129158131 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 441457630}
+--- !u!4 &2131720108 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 1657375865}
+--- !u!1001 &2132842545
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1767207015}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2135513641 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_PrefabInternal: {fileID: 6874806}
+--- !u!1001 &2137418423
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 736716988}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_RootOrder
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1505434678}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 51a47f25046d0aa4ebd063c66d6dda90, type: 2}
+  m_IsPrefabParent: 0
