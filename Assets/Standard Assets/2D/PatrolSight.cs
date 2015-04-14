@@ -14,7 +14,6 @@ public class PatrolSight : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		search();
-		respond();
 	}
 	
 	void search() {
@@ -26,6 +25,7 @@ public class PatrolSight : MonoBehaviour {
 		endSight = new Vector3((startSight.position.x+(3*turn)), (startSight.position.y), startSight.position.z);//guardSightAmount)*(guard.guardDirection), startSight.position.y, startSight.position.z);
 		Debug.DrawLine(startSight.position, endSight, Color.green); 
 		spotted = Physics2D.Linecast (startSight.position, endSight, 1 << LayerMask.NameToLayer("PlayerCharacterLayer"));
+		respond();
 	}
 	
 	void respond() {

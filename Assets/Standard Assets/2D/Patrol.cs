@@ -3,6 +3,9 @@ using System.Collections;
 
 public class Patrol : MonoBehaviour
 {
+	private Animator m_Anim;            // Reference to the player's animator component.
+
+
 	public Transform[] Waypoints;
 	public float Speed;
 	public int curWayPoint;
@@ -14,8 +17,13 @@ public class Patrol : MonoBehaviour
 
 	void Create() {
 		facingRight = true;
+
 	}
-	
+
+	void Start(){
+		m_Anim = GetComponent<Animator>();
+	}
+
 	void Update()
 	{
 		if(curWayPoint < Waypoints.Length)
@@ -50,7 +58,8 @@ public class Patrol : MonoBehaviour
 		}
 
 		GetComponent<Rigidbody2D>().velocity = Velocity;
-
+		m_Anim.SetBool("Ground", true);
+		m_Anim.SetFloat("Speed", Mathf.Abs(Velocity.x));
 	}
 
 
