@@ -9,3 +9,7 @@ EditorBuildSettings:
     path: Assets/gameover.unity
   - enabled: 1
     path: Assets/BaseScene.unity
+  - enabled: 1
+    path: Assets/_scenes/Level2.unity
+  - enabled: 1
+    path: Assets/_scenes/Level3.unity
