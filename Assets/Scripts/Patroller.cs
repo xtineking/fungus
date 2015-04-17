@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class Patroller : MonoBehaviour
@@ -58,8 +58,6 @@ public class Patroller : MonoBehaviour
 		}
 
 		GetComponent<Rigidbody2D>().velocity = Velocity;
-		m_Anim.SetBool("Ground", true);
-		m_Anim.SetFloat("Speed", Mathf.Abs(Velocity.x));
 	}
 
 

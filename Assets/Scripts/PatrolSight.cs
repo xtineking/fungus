@@ -3,8 +3,6 @@ using System.Collections;
 
 public class PatrolSight : MonoBehaviour {
 
-	public GameManager gameManager;
-
 	public Transform startSight;
 	public Vector3 endSight;
 	public Patroller patroller;
@@ -18,13 +16,13 @@ public class PatrolSight : MonoBehaviour {
 		search();
 	}
 	
-	void search() {
+	void search() {	
 		int turn = 0;
 		if(patroller.facingRight) {
 			turn = 1;
 		}
 		else turn = -1;
-		endSight = new Vector3((startSight.position.x+(3*turn)), (startSight.position.y), startSight.position.z);//guardSightAmount)*(guard.guardDirection), startSight.position.y, startSight.position.z);
+		endSight = new Vector3((startSight.position.x+(1*turn)), (startSight.position.y), startSight.position.z);
 		Debug.DrawLine(startSight.position, endSight, Color.green); 
 		spotted = Physics2D.Linecast (startSight.position, endSight, 1 << LayerMask.NameToLayer("PlayerCharacterLayer"));
 		respond();
@@ -33,7 +31,8 @@ public class PatrolSight : MonoBehaviour {
 	void respond() {
 		if(spotted) {
 			Debug.Log("FOUND THE PLAYER");
-			gameManager.GameOver();
+			GetComponent<AudioSource>().Play();
+			GameManager.playerSpotted = true;
 		}
 	}
 }
