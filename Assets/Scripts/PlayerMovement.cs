@@ -54,100 +54,121 @@ public class PlayerMovement : MonoBehaviour {
 			
 		bool[] hits = rays.castRays(transform, facingRight);
 		
-		if(orientation == UP && facingRight && v > 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateCounterClockwise(transform);
-				orientation = LEFT;
+		if(Mathf.Abs(rigidbody.velocity.x) < 0.01f && Mathf.Abs(rigidbody.velocity.y) < 0.01f) {
+			if(orientation == UP && facingRight && v > 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateCounterClockwise(transform);
+					orientation = LEFT;
+				}
 			}
-		}
-		else if(orientation == UP && !facingRight && v > 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateClockwise(transform);
-				orientation = RIGHT;
+			else if(orientation == UP && !facingRight && v > 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateClockwise(transform);
+					orientation = RIGHT;
+				}
 			}
-		}
-		else if(orientation == UP && facingRight && v < 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateClockwise(transform);
-				//orientation = RIGHT;
+			else if(orientation == UP && facingRight && v < 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x + .2f, transform.position.y - .2f, transform.position.z);
+					rays.rotateClockwise(transform);
+					orientation = RIGHT;
+				}
 			}
-		}
-		else if(orientation == UP && !facingRight && v < 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateCounterClockwise(transform);
-				//orientation = LEFT;
+			else if(orientation == UP && !facingRight && v < 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x - .2f, transform.position.y - .2f, transform.position.z);
+					rays.rotateCounterClockwise(transform);
+					orientation = LEFT;
+				}
 			}
-		}
-		else if(orientation == DOWN && facingRight && v > 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateClockwise(transform);
-				//orientation = LEFT;
+			else if(orientation == DOWN && facingRight && v > 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x - .2f, transform.position.y + .2f, transform.position.z);
+					rays.rotateClockwise(transform);
+					orientation = LEFT;
+				}
 			}
-		}
-		else if(orientation == DOWN && !facingRight && v > 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateCounterClockwise(transform);
-				//orientation = RIGHT;
+			else if(orientation == DOWN && !facingRight && v > 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x + .2f, transform.position.y + .2f, transform.position.z);
+					rays.rotateCounterClockwise(transform);
+					orientation = RIGHT;
+				}
 			}
-		}
-		else if(orientation == DOWN && facingRight && v < 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateCounterClockwise(transform);
-				orientation = RIGHT;
+			else if(orientation == DOWN && facingRight && v < 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateCounterClockwise(transform);
+					orientation = RIGHT;
+				}
 			}
-		}
-		else if(orientation == DOWN && !facingRight && v < 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateClockwise(transform);
-				orientation = LEFT;
+			else if(orientation == DOWN && !facingRight && v < 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateClockwise(transform);
+					orientation = LEFT;
+				}
 			}
-		}
-		else if(orientation == LEFT && facingRight && h > 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateClockwise(transform);
-				//orientation = UP;
+			else if(orientation == LEFT && facingRight && h > 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x + .2f, transform.position.y + .2f, transform.position.z);
+					rays.rotateClockwise(transform);
+					orientation = UP;
+				}
 			}
-		}
-		else if(orientation == LEFT && !facingRight && h > 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateCounterClockwise(transform);
-				//orientation = DOWN;
+			else if(orientation == LEFT && !facingRight && h > 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x + .2f, transform.position.y - .2f, transform.position.z);
+					rays.rotateCounterClockwise(transform);
+					orientation = DOWN;
+				}
 			}
-		}
-		else if(orientation == LEFT && facingRight && h < 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateCounterClockwise(transform);
-				orientation = DOWN;
+			else if(orientation == LEFT && facingRight && h < 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateCounterClockwise(transform);
+					orientation = DOWN;
+				}
 			}
-		}
-		else if(orientation == LEFT && !facingRight && h < 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateClockwise(transform);
-				orientation = UP;
+			else if(orientation == LEFT && !facingRight && h < 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateClockwise(transform);
+					orientation = UP;
+				}
 			}
-		}
-		else if(orientation == RIGHT && facingRight && h > 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateCounterClockwise(transform);
-				orientation = UP;
+			else if(orientation == RIGHT && facingRight && h > 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateCounterClockwise(transform);
+					orientation = UP;
+				}
 			}
-		}
-		else if(orientation == RIGHT && !facingRight && h > 0) {
-			if(hits[1] && hits[2] && hits[3]) {
-				rays.rotateClockwise(transform);
-				orientation = DOWN;
+			else if(orientation == RIGHT && !facingRight && h > 0) {
+				if(hits[1] && hits[2] && hits[3]) {
+					rays.rotateClockwise(transform);
+					orientation = DOWN;
+				}
 			}
-		}
-		else if(orientation == RIGHT && facingRight && h < 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateClockwise(transform);
-				//orientation = DOWN;
+			else if(orientation == RIGHT && facingRight && h < 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x - .2f, transform.position.y - .2f, transform.position.z);
+					rays.rotateClockwise(transform);
+					orientation = DOWN;
+				}
 			}
-		}
-		else if(orientation == RIGHT && !facingRight && h < 0) {
-			if(!hits[1] && !hits[2] && hits[3]) {
-				//rays.rotateCounterClockwise(transform);
-				//orientation = UP;
+			else if(orientation == RIGHT && !facingRight && h < 0) {
+				if(!hits[1] && !hits[2] && hits[3]) {
+					transform.position = new Vector3(transform.position.x - .2f, transform.position.y + .2f, transform.position.z);
+					rays.rotateCounterClockwise(transform);
+					orientation = UP;
+				}
+			}
+			else{
+				// Pass all parameters to the character control script.
+				if((!hits[1] && !hits[2] && hits[3])) {
+					float temp_speed = speed;
+					speed = 0;
+					move(orientation == UP || orientation == DOWN ? h : (-1)*v,  jump);
+					speed = temp_speed;
+				}
+				else 
+					move(orientation == UP || orientation == DOWN ? h : (-1)*v,  jump);
 			}
 		}
 		else{
