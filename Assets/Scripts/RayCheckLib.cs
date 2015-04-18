@@ -55,10 +55,14 @@ public class RayCheckLib : MonoBehaviour {
 		return hits;
 	}
 	
-	public bool transferLevels(Transform trans) {
-		Vector3 rayV = trans.up;
-		RaycastHit2D hitV = Physics2D.Raycast (trans.position, rayV, 2f, 1 << LayerMask.NameToLayer("HillLayer"));
-		if(hitV.collider != null) {
+	public bool transferLevels(Transform trans, Transform head, Transform butt) {
+		Vector3 rayV1 = head.up;
+		Vector3 rayV2 = butt.up;
+		RaycastHit2D hitV1 = Physics2D.Raycast (head.position, rayV1, 2f, 1 << LayerMask.NameToLayer("HillLayer"));
+		RaycastHit2D hitV2 = Physics2D.Raycast (butt.position, rayV2, 2f, 1 << LayerMask.NameToLayer("HillLayer"));
+		Debug.DrawRay (head.position, rayV1, Color.green);
+		Debug.DrawRay (butt.position, rayV2, Color.green);
+		if(hitV1.collider != null && hitV2.collider != null && hitV1.transform == hitV2.transform) {
 			transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 			trans.localEulerAngles = new Vector3(
 				trans.localEulerAngles.x,

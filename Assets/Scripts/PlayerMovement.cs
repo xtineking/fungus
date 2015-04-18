@@ -16,7 +16,10 @@ public class PlayerMovement : MonoBehaviour {
     private Animator animator;            // Reference to the player's animator component.
     private Rigidbody2D rigidbody;
     public bool facingRight = false;  // For determining which way the player is currently facing.
-	
+
+	public Transform buttCollider;
+	public Transform headCollider;
+
 	public RayCheckLib rays;
 	
 	private float h = 0;
@@ -183,12 +186,12 @@ public class PlayerMovement : MonoBehaviour {
 	
 	private void move(float move, bool jump) {
 		
-		if (orientation == UP || orientation == DOWN) {
+		if ((orientation == UP || orientation == DOWN) && !jump) {
 			// Move the character horizontally
-			rigidbody.velocity = new Vector2(move*speed, rigidbody.velocity.y);
+			rigidbody.velocity = new Vector2 (move * speed, rigidbody.velocity.y);
 		} else {
 			// Move the character vertically
-			rigidbody.velocity = new Vector2(rigidbody.velocity.x, -move*speed);
+			rigidbody.velocity = new Vector2 (rigidbody.velocity.x, -move * speed);
 		}
 		
 		if (move > 0 && !facingRight && orientation == UP && vert())
@@ -244,8 +247,12 @@ public class PlayerMovement : MonoBehaviour {
 					//Debug.Log("FLIPD");
                 }
 				
-		if(jump) {
-			if(rays.transferLevels(transform)) {
+		if (jump) {
+			Debug.Log (rigidbody.velocity.x);
+		}
+
+		if(jump && Mathf.Abs(rigidbody.velocity.x) < 0.01f && Mathf.Abs(rigidbody.velocity.y) < 0.01f) {
+			if(rays.transferLevels(transform, buttCollider, headCollider)) {
 				if(orientation == UP) {
 					orientation = DOWN;
 				}
