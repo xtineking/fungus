@@ -172,9 +172,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 0}
   facingRight: 0
+  buttCollider: {fileID: 0}
+  headCollider: {fileID: 0}
   rays: {fileID: 11445232}
   maxSpeed: 3
   speed: 4
+  jump1: {fileID: 8300000, guid: c28f0d56267022840ae3c18722d15546, type: 3}
+  jump2: {fileID: 8300000, guid: 8f8a9c674a25c934a869644d4892d3a4, type: 3}
+  gOver: {fileID: 0}
+  spotted1: {fileID: 8300000, guid: b517f2940a713d84cb5b19f3a757a919, type: 3}
 --- !u!212 &21239596
 SpriteRenderer:
   m_ObjectHideFlags: 1
