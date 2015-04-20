@@ -13083,6 +13083,10 @@ Prefab:
       propertyPath: Waypoints.Array.data[1]
       value: 
       objectReference: {fileID: 2007385124}
+    - target: {fileID: 11485256, guid: f605a53fb11e5e044b8687db31abbcc8, type: 2}
+      propertyPath: spotted1
+      value: 
+      objectReference: {fileID: 8300000, guid: b517f2940a713d84cb5b19f3a757a919, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f605a53fb11e5e044b8687db31abbcc8, type: 2}
   m_IsPrefabParent: 0
@@ -14227,6 +14231,18 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .148517564
       objectReference: {fileID: 0}
+    - target: {fileID: 11490932, guid: bb0cc3c828359bc4f852dded1db09e50, type: 2}
+      propertyPath: jump1
+      value: 
+      objectReference: {fileID: 8300000, guid: c28f0d56267022840ae3c18722d15546, type: 3}
+    - target: {fileID: 11490932, guid: bb0cc3c828359bc4f852dded1db09e50, type: 2}
+      propertyPath: jump2
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f8a9c674a25c934a869644d4892d3a4, type: 3}
+    - target: {fileID: 11490932, guid: bb0cc3c828359bc4f852dded1db09e50, type: 2}
+      propertyPath: spotted1
+      value: 
+      objectReference: {fileID: 8300000, guid: b517f2940a713d84cb5b19f3a757a919, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb0cc3c828359bc4f852dded1db09e50, type: 2}
   m_IsPrefabParent: 0

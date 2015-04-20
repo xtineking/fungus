@@ -26,6 +26,12 @@ public class PlayerMovement : MonoBehaviour {
 	
 	public float maxSpeed = 3;
 	public float speed = 4f;
+
+	public AudioClip jump1;
+	public AudioClip jump2;
+	public AudioClip gOver;
+	public AudioClip spotted1;
+
 	
 	//private bool m_Jump;
 
@@ -274,6 +280,9 @@ public class PlayerMovement : MonoBehaviour {
 
 		if(jump && Mathf.Abs(rigidbody.velocity.x) < 0.01f && Mathf.Abs(rigidbody.velocity.y) < 0.01f) {
 			if(rays.transferLevels(transform, buttCollider, headCollider)) {
+
+				SoundManager.instance.RandomizeSfx(jump1, jump2);	//plays jump sound when jump successful
+
 				if(orientation == UP) {
 					orientation = DOWN;
 				}

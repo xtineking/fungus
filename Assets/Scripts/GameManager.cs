@@ -18,10 +18,37 @@ public class GameManager : MonoBehaviour {
 	void FixedUpdate () {
 		if(playerSpotted) {
 			Invoke("killGame", 2);
+
+			//SoundManager.instance.Stop(); //stops background music when game over
+			if(Application.loadedLevelName == "GameOver"){
+			/*	if(Input.anyKeyDown){
+					Application.LoadLevel ("StartScene");
+				} */
+
+
+			}
+
 		}
 	}
 	
+
 	void killGame () {
 		Application.LoadLevel("GameOver");
+		//yield return new WaitForSeconds (2);
+		//Application.LoadLevel ("StartScene");
+		//gOver ();
+		Invoke("reload", 2);
+	}
+
+
+	IEnumerator gOver () {
+		Application.LoadLevel("GameOver");
+		yield return new WaitForSeconds(2);
+		Application.LoadLevel("StartScene");
+		
+	}
+
+	void reload () {
+		Application.LoadLevel ("StartScene"); //goes back to main menu after game over
 	}
 }

@@ -241,6 +241,7 @@ MonoBehaviour:
   patroller: {fileID: 11415116}
   foundCount: 0
   spotted: 0
+  spotted1: {fileID: 8300000, guid: b517f2940a713d84cb5b19f3a757a919, type: 3}
 --- !u!212 &21251980
 SpriteRenderer:
   m_ObjectHideFlags: 1

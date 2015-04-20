@@ -8,6 +8,10 @@ public class PatrolSight : MonoBehaviour {
 	public Patroller patroller;
 	public int foundCount = 0;
 	public bool spotted = false;
+
+	public AudioClip spotted1;
+
+
 	//public Transform guard;
 	//public int guardSightAmount = 10;
 	
@@ -31,7 +35,8 @@ public class PatrolSight : MonoBehaviour {
 	void respond() {
 		if(spotted) {
 			Debug.Log("FOUND THE PLAYER");
-			GetComponent<AudioSource>().Play();
+			//GetComponent<AudioSource>().Play();
+			SoundManager.instance.PlaySingle(spotted1);
 			GameManager.playerSpotted = true;
 		}
 	}
